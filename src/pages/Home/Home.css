@@ -1,0 +1,92 @@
+.homeContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 92vh;
+}
+
+#introContainer{
+    width: 35vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#level1{
+    width: 100%;
+}
+
+#level2{
+    display: flex;
+    flex-direction: row;
+    height: 13vh;
+}
+
+#part1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: right;
+}
+
+#part1 > h1{
+    font-size: 50px;
+}
+
+#part1 > h3{
+    font-size: 40px;
+}
+
+#part2{
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+    width: 50%;
+}
+
+#G{
+    color: #4c8bf5;
+}
+
+#D{
+    color: #de5246;
+}
+
+#S{
+    color: #34A853;
+}
+
+#C{
+    color: #F4B400;
+}
+
+#part2 > h1{
+    font-size: 115px;
+    font-weight: 900;
+}
+
+#gdscLogo{
+    float: right;
+    height: 8vh;
+}
+
+#level3{
+    width: 100%;
+    text-align: right;
+    
+}
+
+#level3 > h2{
+    font-size: 60px;
+}
+
+#coreValue{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
