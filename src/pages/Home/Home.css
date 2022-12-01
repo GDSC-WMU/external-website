@@ -104,6 +104,8 @@
 
 #mission > p{
     font-size: 18px;
+    opacity: 0;
+    animation: appear ease-out 1s forwards 0.8s;
 }
 
 #level1, #level2, #level3{
@@ -124,4 +126,8 @@
 @keyframes up2 {
     0% {transform: translateY(0);}
     100% {transform: translateY(-40px);opacity:1;}
+  }
+
+@keyframes appear {
+    100% {opacity:1;}
   }
