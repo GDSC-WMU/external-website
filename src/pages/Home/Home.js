@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className='homeContainer'>
       <div id='introContainer'>
-
+        
         <div id='level1'>
           <img id='gdscLogo' src='gdsc_logo.png'></img>
         </div>
@@ -30,16 +30,9 @@ function Home() {
 
       </div>
 
-      <div id='coreValue'>
-        <div id='val1'>
-          val1
-        </div>
-        <div id='val2'>
-          val2
-        </div>
-        <div id='val3'>
-          val3
-        </div>
+      <div id='mission'>
+        <p>&lt; Our mission is to empower our community with the resources, education, and experience they
+need to create imaginative technological solutions to the problems facing society /&gt;</p>
 
       </div>
       
